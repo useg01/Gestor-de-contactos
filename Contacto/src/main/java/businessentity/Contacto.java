@@ -1,11 +1,11 @@
 package businessentity;
+//Test
 public class Contacto {
 private int id;
     private String nombre;
     private String telefono;
     private String correo;
 
-    // Constructor vacío
     public Contacto() {
     }
 
