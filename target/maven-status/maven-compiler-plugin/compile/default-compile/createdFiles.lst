@@ -1,0 +1,5 @@
+businessentity\ConexionDB.class
+businessentity\Contacto.class
+businessentity\ContactoDAO.class
+businessentity\Main.class
+businessentity\IBaseDAO.class
