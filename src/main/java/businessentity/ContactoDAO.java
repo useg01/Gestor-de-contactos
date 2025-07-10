@@ -1,5 +1,5 @@
 package businessentity;
-import businessentity.Contacto; // ajusta el paquete
+import businessentity.Contacto;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;

@@ -9,7 +9,7 @@ private int id;
     public Contacto() {
     }
 
-    // Constructor con todos los campos (útil para cuando tienes el id)
+    //Constructor con ID
     public Contacto(int id, String nombre, String telefono, String correo) {
         this.id = id;
         this.nombre = nombre;
@@ -17,7 +17,7 @@ private int id;
         this.correo = correo;
     }
 
-    // Constructor sin id (para insertar nuevos contactos, por ejemplo)
+    // Constructor sin ID
     public Contacto(String nombre, String telefono, String correo) {
         this.nombre = nombre;
         this.telefono = telefono;
@@ -57,7 +57,7 @@ private int id;
         this.correo = correo;
     }
 
-    // Método toString para mostrar datos del contacto fácilmente
+    // Método toString para mostrar datos del contacto
     @Override
     public String toString() {
         return "Contacto{" +
@@ -67,5 +67,4 @@ private int id;
                 ", correo='" + correo + '\'' +
                 '}';
     }
-
 }

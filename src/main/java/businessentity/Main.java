@@ -33,13 +33,13 @@ public class Main {
 
                         Contacto nuevoContacto = new Contacto(nombre, telefono, correo);
                         contactoDAO.insertar(nuevoContacto);
-                        System.out.println("✅ Contacto anadido exitosamente.");
+                        System.out.println("Contacto anadido exitosamente.");
                         break;
 
                     case 2:
                         List<Contacto> contactos = contactoDAO.listar();
                         if (contactos.isEmpty()) {
-                            System.out.println("⚠ No hay contactos registrados.");
+                            System.out.println("No hay contactos registrados.");
                         } else {
                             System.out.println("\n=== Lista de Contactos ===");
                             for (Contacto c : contactos) {
@@ -49,11 +49,11 @@ public class Main {
                         break;
 
                     case 3:
-                        System.out.println("👋 Saliendo del programa...");
+                        System.out.println("Saliendo del programa...");
                         break;
 
                     default:
-                        System.out.println("❌ Opcion no valida. Intente nuevamente.");
+                        System.out.println("Opcion no valida. Intente nuevamente.");
                         break;
                 }
             } while (opcion != 3);
